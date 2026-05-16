@@ -1,0 +1,30 @@
+/* menu CSS */
+.Wmenu1 {float: left; text-align:left;}
+.Wmenu2 {float: left;}
+.Wmenu3 {float: left;}
+.Wmenu4 {float: left;}
+.Wmenu5 {float: left;}
+
+.Wmenu1 .submenu {visibility:hidden;position:absolute;border:solid 1px #CCC; *margin:25px 0 0 -78px; }
+.Wmenu3 .submenu {visibility:hidden;position:absolute;border:solid 1px #CCC; *margin:25px 0 0 -91px; }
+.submenu a {
+	font-family: Geneva, Arial, Helvetica, Verdana, sans-serif;
+	font-size:12px;
+	text-align:center;
+	color:#333;
+	background-color:#FFF;
+	width: 10em;
+	text-decoration: none;
+	display:block;
+	line-height:25px;
+}
+.submenu a:hover {
+	background-color:#666;
+	text-decoration: none;
+	color:#FFF;
+}
+.submenu span {display:none}
+
+/*其他共用*/
+.mw_news_title { font-weight:bold; font-size:16px; letter-spacing:2px;}
+#b220722_title, .mw_news_header, .mw_news_title_date { display:none!important;}

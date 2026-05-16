@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.0">
+  <channel>
+    <description />
+    <generator>五夢網</generator>
+    <item>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;万无一失&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;江铭辉&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;五梦网&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 11pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;一架满载旅客的宇宙号太空火箭，正以每小时10,000公里时速，奔向 300,000亿公里外的超级乌托邦星座。大家心情都异常高兴，因为梦想的宇宙旅行终于实现了。但突然间，火箭长向全体旅客宣布，由于火箭喷射器出了问题，火箭将改用下述方式减速飞行。即下个小时之时速是9，900公里，再接下去另一个小时减为每小时9，801公里，而第三小时后再减为9702.99公里，这样每经过一小时，时速减为前一小时之99/100倍。此时有位旅客却坚决反对，他认为如此飞行方式火箭将永远无法到达目的地。他建议改用下述方式飞行，即下个小时以5，000公里时速飞行，再次一小时以3，333公里时速飞行，如此第三小时时速为2，500公里，第四小时为2，0 00公里，按此方式逐渐减速飞行，火箭到达目的地则指日可待。假设旅客们的寿命无限长，而食粮及燃料也无问题，请问火箭长的立论是否可行？该旅客的建议正确吗？&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 14px"&gt;&lt;b&gt;&lt;img border="0" hspace="10" alt="" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-萬無一失500.jpg" /&gt;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 14px"&gt;&lt;b&gt;图：一架满载旅客的宇宙号太空火箭，正奔向超级乌托邦星座。&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 14px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14.5pt"&gt;万无一失的解答&lt;/span&gt;&lt;span style="font-size: 14.5pt"&gt; :&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14.5pt" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px"&gt;1.设火箭前进速度第一小时V&lt;sub&gt;1&lt;/sub&gt;，第二小时是V&lt;sub&gt;2&lt;/sub&gt;，，第三小时是V&lt;sub&gt;3&lt;/sub&gt;，&amp;hellip;&amp;hellip;‥等等，则火箭长理想的火箭速度是：&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;1 &lt;/sub&gt;=10000公里/小时&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;2 &lt;/sub&gt;=10000&amp;times;(99/100)公里/小时&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;3&lt;/sub&gt;=10000&amp;times;(99/100) &amp;times;(99/100)&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;则火箭在无穷小时时所走距离为：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;10000公里＋10000&amp;times;(99/100)公里＋10000&amp;times;(99&lt;sup&gt;2&lt;/sup&gt;/100&lt;sup&gt;2&lt;/sup&gt;) 公里＋&amp;hellip;&amp;hellip;‥&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;=10000(1+ 99/100+99&lt;sup&gt;2&lt;/sup&gt;/100&lt;sup&gt;2&lt;/sup&gt;+99&lt;sup&gt;3&lt;/sup&gt;/100&lt;sup&gt;3&lt;/sup&gt;+&amp;hellip;&amp;hellip;‥) 公里&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;=10000(1/(1－99/100)) 公里= 1000000公里&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;因此按照火箭长理想中的火箭速度飞行，将永远不能达到。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&lt;strong&gt;2.按旅客希望的火箭速度是：&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;1 &lt;/sub&gt;=10000公里/小时&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;2 &lt;/sub&gt;=10000&amp;times;(1/2)公里/小时&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;3&lt;/sub&gt;=10000&amp;times;(1/3) 公里/小时&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;则火箭在无穷小时时所走距离为：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;10000公里+10000&amp;times;(1/2)公里+10000&amp;times;(1/3)公里&amp;hellip;&amp;hellip;‥&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;=10000(1+ 1/2 + 1/3 + 1/4 +&amp;hellip;&amp;hellip;‥) 公里&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;因为1+ 1/2 + 1/3 + 1/4 +&amp;hellip;&amp;hellip;‥的和是无穷大，所以火箭最后可达到300，000亿公里以外的超级乌托邦星座。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;img border="0" hspace="10" alt="" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-萬無一失501.jpg" /&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;&lt;b&gt;&lt;span style="font-size: 12pt"&gt;图：&lt;/span&gt;&lt;span style="font-size: 11.5pt"&gt;按旅客希望的火箭速度，&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;火箭最后到达超级乌托邦星座&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;</description>
+      <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259&amp;step=1&amp;newsno=19827</link>
+      <pubDate>Wed, 21 Apr 2010 13:55:56 GMT</pubDate>
+      <pubDateParsed>2010-04-21T13:55:56</pubDateParsed>
+      <title>万无一失</title>
+    </item>
+    <item>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;萬無一失&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;江銘輝&lt;span&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;五夢網&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 11pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;一架滿載旅客的宇宙號太空火箭，正以每小時10,000公里時速，奔向 300,000億公里外的超級烏托邦星座。大家心情都異常高興，因為夢想的宇宙旅行終於實現了。但突然間，火箭長向全體旅客宣佈，由於火箭噴射器出了問題，火箭將改用下述方式減速飛行。即下個小時之時速是9，900公里，再接下去另一個小時減為每小時9，801公里，而第三小時後再減為9702.99公里，這樣每經過一小時，時速減為前一小時之99/100倍。此時有位旅客卻堅決反對，他認為如此飛行方式火箭將永遠無法到達目的地。他建議改用下述方式飛行，即下個小時以5，000公里時速飛行，再次一小時以3，333公里時速飛行，如此第三小時時速為2，500公里，第四小時為2，0 00公里，按此方式逐漸減速飛行，火箭到達目的地則指日可待。假設旅客們的壽命無限長，而食糧及燃料也無問題，請問火箭長的立論是否可行？該旅客的建議正確嗎？&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&lt;span style="font-size: 12pt"&gt;&lt;strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-萬無一失500.jpg" alt="" /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&lt;span style="font-size: 12pt"&gt;&lt;strong&gt;圖：一架滿載旅客的宇宙號太空火箭，正奔向超級烏托邦星座。&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 14.5pt"&gt;萬無一失的解答 :&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;1.設火箭前進速度第一小時V&lt;sub&gt;1&lt;/sub&gt;，第二小時是V&lt;sub&gt;2&lt;/sub&gt;，，第三小時是V&lt;sub&gt;3&lt;/sub&gt;，&amp;hellip;&amp;hellip;‥等等，則火箭長理想的火箭速度是：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;1 &lt;/sub&gt;=10000公里/小時&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;2 &lt;/sub&gt;=10000&amp;times;(99/100)公里/小時&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;3&lt;/sub&gt;=10000&amp;times;(99/100) &amp;times;(99/100)&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;則火箭在無窮小時時所走距離為：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;10000公里＋10000&amp;times;(99/100)公里＋10000&amp;times;(99&lt;sup&gt;2&lt;/sup&gt;/100&lt;sup&gt;2&lt;/sup&gt;) 公里＋&amp;hellip;&amp;hellip;‥&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;=10000(1+ 99/100+99&lt;sup&gt;2&lt;/sup&gt;/100&lt;sup&gt;2&lt;/sup&gt;+99&lt;sup&gt;3&lt;/sup&gt;/100&lt;sup&gt;3&lt;/sup&gt;+&amp;hellip;&amp;hellip;‥) 公里&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;=10000(1/(1－99/100)) 公里= 1000000公里&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;因此按照火箭長理想中的火箭速度飛行，將永遠不能達到。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;2.按旅客希望的火箭速度是：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;1 &lt;/sub&gt;=10000公里/小時&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;2 &lt;/sub&gt;=10000&amp;times;(1/2)公里/小時&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;V&lt;sub&gt;3&lt;/sub&gt;=10000&amp;times;(1/3) 公里/小時&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&amp;hellip;&amp;hellip;‥&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;則火箭在無窮小時時所走距離為：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;10000公里+10000&amp;times;(1/2)公里+10000&amp;times;(1/3)公里&amp;hellip;&amp;hellip;‥&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;=10000(1+ 1/2 + 1/3 + 1/4 +&amp;hellip;&amp;hellip;‥) 公里&lt;/span&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt"&gt;因為1+ 1/2 + 1/3 + 1/4 +&amp;hellip;&amp;hellip;‥的和是無窮大，所以火箭最後可達到300，000億公里以外的超級烏托邦星座。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt"&gt;&lt;strong&gt;&lt;span style="font-size: 12pt"&gt;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-萬無一失501.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt"&gt;&lt;strong&gt;&lt;span style="font-size: 12pt"&gt;圖：&lt;/span&gt;&lt;span style="font-size: 11.5pt"&gt;按旅客希望的火箭速度，&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;火箭最後到達超級烏托邦星座&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</description>
+      <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259&amp;step=1&amp;newsno=19826</link>
+      <pubDate>Wed, 21 Apr 2010 13:51:40 GMT</pubDate>
+      <pubDateParsed>2010-04-21T13:51:40</pubDateParsed>
+      <title>萬無一失</title>
+    </item>
+    <item>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div style="text-justify: inter-ideograph"&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;马匹分配风波&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;简体&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;江铭辉&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;五梦网&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph"&gt;&lt;span style="font-size: 16px"&gt;&lt;span style="font-family: SimSun; font-size: 11pt; mso-ascii-font-family: 標楷體; mso-hansi-font-family: 標楷體; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="ZH-CN" /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph"&gt;&lt;span style="font-size: 16px"&gt;&lt;span style="font-family: SimSun; font-size: 11pt; mso-ascii-font-family: 標楷體; mso-hansi-font-family: 標楷體; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="ZH-CN"&gt;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-2009-10-19_162324.png" alt="" /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph"&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph"&gt;&lt;span style="font-size: 16px"&gt;朋友告诉了我下面的故事。这个故事的诡计在那里?&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 3.55pt 0cm 0pt 0.35pt"&gt;&lt;span style="font-size: 16px"&gt;某位农场的主人拥有的财产是17只马匹。他在临终时留下遗言，把他财产的1/2给长子，财产的1/3给次子，财产的1/9给三子。&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 5.75pt 0cm 0pt 0.35pt"&gt;&lt;span style="font-size: 16px"&gt;但由于17不论用2或3或9都除不尽，儿子们无法按照父亲的遗言分配则产而烦恼。&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 5.35pt 0cm 0pt"&gt;&lt;span style="font-size: 16px"&gt;骑了1匹马的路人经过那里，问他们:「你们到底烦恼什么？」&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 5.9pt 0cm 0pt 1.4pt"&gt;&lt;span style="font-size: 16px"&gt;3位儿子把他们遇到的困难说出来。这位路人听了他们的话之后说:「幸而我这里有1匹马。我愿意把这匹马给你们，你们就把它加在一起，当做18匹分配吧!」&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 5.75pt 0cm 0pt 2.5pt"&gt;&lt;span style="font-size: 16px"&gt;他们兄弟觉得不便白白的从过路人取得这匹而婉拒，但由于路人一再表示要帮忙他们解决问题，最后接受路人送的1匹马之后，按照父亲的遗言分配。&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 5.55pt 0cm 0pt 26.25pt"&gt;&lt;span style="font-size: 16px"&gt;各人所分配到的是长子9只，次子6只，三子2只。但由于&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 0.35pt"&gt;&lt;span style="font-size: 16px"&gt;9+6+2=17结果剩下了1匹马，因此那位路人告诉孩子们：「怎么？你们都按照父亲的遗言获得马匹了。但是，这里剩下的1匹本来是我的，我只好带回去。」&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 3.95pt 0cm 0pt 0.7pt"&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 6.1pt 0cm 0pt 24.45pt"&gt;&lt;span style="font-size: 16px"&gt;路人说完了，又骑着他的马，浪迹天涯。&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 5.2pt 0cm 0pt 23.75pt"&gt;&lt;span style="font-size: 16px"&gt;请问路人有没有遵照农场主人的遗言去做?&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 0.35pt"&gt;&lt;span style="font-size: 16px"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 0.35pt"&gt;&lt;strong&gt;&lt;span style="font-size: 16px"&gt;马匹分配风波解答&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="font-size: 16px"&gt;路人并没有按农场主人临终时留下的遗言去作，因为农场主人原先的遗言是长子分给17匹马的1/2即8.5匹，次子分给17匹马的1/3即5又2/3匹，三子分17只的1/9即1又8/9匹:剩下的17/18匹并没有说要分给谁?但路人却分给长子9匹比8.5匹多0.5匹，次子分给6匹比5又2/3匹多1/3匹，三子分给2匹比1又8/9匹多1/9匹。即路人将17/18匹又分给三个孩子，所以路人并没有按农场主人临终时之遗言去执行。&lt;/span&gt;&lt;/p&gt;</description>
+      <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259&amp;step=1&amp;newsno=16525</link>
+      <pubDate>Sun, 13 Dec 2009 08:45:12 GMT</pubDate>
+      <pubDateParsed>2009-12-13T08:45:12</pubDateParsed>
+      <title>马匹分配风波  简体</title>
+    </item>
+    <item>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;生男&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;？生女？&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;简体&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;江铭辉&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;五梦网&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0915.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;图：柳太太正在思考怎么样处理&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;A&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒或&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;B&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒中的药丸&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;结婚后的柳太太，想生下一个聪明绝顶的孩子，于是去拜访遗传学大师&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;&amp;mdash;&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;门德尔，老孟给她二盒灵丹（&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;A&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒和&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;B&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒），&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;A&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒中共有灵丹&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;180&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗，其中蓝色有&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;110&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗，红色有&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;70&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗，盒中有张标签如此写着：蓝色&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;110&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗药丸中有&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;50&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗吃了可生聪明男孩子，红色的&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;70&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗中，有&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;30&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗吃了可生聪明女孩子，换言之，在&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;A&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒中吃蓝色药丸生下聪明孩子的机率（&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;5/11&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;）大于吃红色药丸的机率（&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;3/7&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;）（假设药力很强一人一生只能吃一颗）。&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;B&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒中共有灵丹&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;230&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗，其中蓝色有&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;90&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗，红色有&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;140&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗，盒中有张标签如此写着：蓝色&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;90&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗药丸中有&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;60&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗吃了可生聪明男孩子，红色的&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;140&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗中，有&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;90&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;颗吃了可生聪明女孩子，换言之，在&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;B&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒中吃蓝色药丸生下聪明孩子的机率（&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;6/9&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;）大于吃红色药丸的机率（&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;9/14&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;），因此若想生下聪明的孩子，无论打开&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;A&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒或&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;B&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒只要选择蓝色药丸吃下，就对了。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;柳太太没有当场立即吃下，有一天，当柳太太想吃灵丹时，却发现柳先生把&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;A&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒和&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;B&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒的灵丹混在一起，请问柳太太是否还选择蓝色药丸吃下，为什么？&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;生男&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;？生女？答案。&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;柳太太如果是聪明的人她会改吃红色药丸，理由是：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;A&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒中生下聪明孩子的机率：蓝色是&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;5/11&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;，红色是&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;3/7&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;，蓝色比红色大&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;2/77&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;B&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒中生下聪明孩子的机率：蓝色是&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;6/9&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;，红色是&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;9/14&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;，蓝色比红色大&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;1/42&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;。&lt;/span&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="font-size: 11pt"&gt;但是将&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;A&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒和&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;B&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒的灵丹混在一起，则生下聪明孩子的机率不再是蓝色药丸大于红色药丸，它们变成：蓝色是&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;110/200&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;，红色是&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;120/210&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;，红色比蓝色大&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;3/140&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;。&lt;/span&gt;&lt;/p&gt;</description>
+      <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259&amp;step=1&amp;newsno=16523</link>
+      <pubDate>Sun, 13 Dec 2009 08:34:24 GMT</pubDate>
+      <pubDateParsed>2009-12-13T08:34:24</pubDateParsed>
+      <title>生男？生女？ 简体</title>
+    </item>
+    <item>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;生男&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;？生女？&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;江銘輝&amp;nbsp;五夢網&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0915.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;圖：柳太太正在思考怎麼樣處理A盒或B盒中的藥丸&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;結婚後的柳太太，想生下一個聰明絕頂的孩子，於是去拜訪遺傳學大師&amp;mdash;孟德爾，老孟給她二盒靈丹（A盒和B盒），A盒中共有靈丹180顆，其中藍色有110顆，紅色有70顆，盒中有張標籤如此寫著：藍色110顆藥丸中有50顆吃了可生聰明男孩子，紅色的70顆中，有30顆吃了可生聰明女孩子，換言之，在A盒中吃藍色藥丸生下聰明孩子的機率（5/11）大於吃紅色藥丸的機率（3/7）（假設藥力很強一人一生只能吃一顆）。B盒中共有靈丹230顆，其中藍色有90顆，紅色有140顆，盒中有張標籤如此寫著：藍色90顆藥丸中有60顆吃了可生聰明男孩子，紅色的140顆中，有90顆吃了可生聰明女孩子，換言之，在B盒中吃藍色藥丸生下聰明孩子的機率（6/9）大於吃紅色藥丸的機率（9/14），因此若想生下聰明的孩子，無論打開A盒或B盒只要選擇藍色藥丸吃下，就對了。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;柳太太沒有當場立即吃下，有一天，當柳太太想吃靈丹時，卻發現柳先生把A盒和B盒的靈丹混在一起，請問柳太太是否還選擇藍色藥丸吃下，為什麼？&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;生男&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;？生女？答案。&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;柳太太如果是聰明的人她會改吃紅色藥丸，理由是：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;A&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒中生下聰明孩子的機率：藍色是5/11，紅色是3/7，藍色比紅色大2/77。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 11pt"&gt;B&lt;/span&gt;&lt;span style="font-size: 11pt"&gt;盒中生下聰明孩子的機率：藍色是6/9，紅色是9/14，藍色比紅色大1/42。&lt;/span&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="font-size: 11pt"&gt;但是將A盒和B盒的靈丹混在一起，則生下聰明孩子的機率不再是藍色藥丸大於紅色藥丸，它們變成：藍色是110/200，紅色是120/210，紅色比藍色大3/140。&lt;/span&gt;&lt;/p&gt;</description>
+      <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259&amp;step=1&amp;newsno=16522</link>
+      <pubDate>Sun, 13 Dec 2009 08:32:11 GMT</pubDate>
+      <pubDateParsed>2009-12-13T08:32:11</pubDateParsed>
+      <title>生男？生女？</title>
+    </item>
+    <item>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;小鸟重多少&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;？&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;&amp;nbsp; &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;江铭辉&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;五梦网&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size: 11pt" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;如图1、图2、图3，将100公克的箱子放在弹簧磅秤上，箱内放一只10公克的小鸟，箱子的外盖打开，这时量得箱子重100公克，小鸟站在箱底，则可量得重量共110公克，此时小鸟突然飞起，请问弹簧磅秤称得箱子重量多少？若将箱子密闭，如果小鸟在箱内飞起，则弹簧磅秤上的指针是指在100公克或110公克？&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0910.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;图1：小鸟站在无盖的箱底，弹簧磅秤量得110公克的重量。&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0912.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;图2：小鸟飞在无盖的箱内，请问弹簧磅秤量得的重量是多少？&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0911.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;图3：小鸟飞在有盖密封的箱内，请问弹簧磅秤量得的重量是多少？&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;小鸟重多少&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;？解答。&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;小鸟飞在无盖的箱子内重量是100公克，小鸟飞在密闭箱子内弹簧磅秤上的指针是110公克。理由如下：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;空中飞翔的物体，如鸟、蜜蜂、直升机、飞机的重量是靠空气支撑。而空气是由大地支撑着。机翼或鸟翼一方面借着空气的推升而上扬，另一方面也向下压着空气，使大地或箱子感受空气施与的重量。&lt;/span&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="font-size: 16px"&gt;在没有盖子的箱子里，支撑小鸟的空气将小鸟的重量，传输到整个大地，因此弹簧磅秤几乎量测不到小鸟的重量。但是密闭的箱内，箱内的空气无法和外界的空气流通，整个支撑小鸟重量的空气全部传输到箱底。不管小鸟飞起来或停下来，箱子的重量是不会改变，即磅秤上的指针永远是110公克，如果将箱子挖一小孔，那么重量就会随孔的大小作改变。&lt;/span&gt;&lt;/p&gt;</description>
+      <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259&amp;step=1&amp;newsno=16466</link>
+      <pubDate>Fri, 11 Dec 2009 16:07:35 GMT</pubDate>
+      <pubDateParsed>2009-12-11T16:07:35</pubDateParsed>
+      <title>小鸟重多少？简体</title>
+    </item>
+    <item>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;小鳥重多少&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;？&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;江銘輝 五夢網&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;如圖1、圖2、圖3，將100公克的箱子放在彈簧磅秤上，箱內放一隻10公克的小鳥，箱子的外蓋打開，這時量得箱子重100公克，小鳥站在箱底，則可量得重量共110公克，此時小鳥突然飛起，請問彈簧磅秤稱得箱子重量多少？若將箱子密閉，如果小鳥在箱內飛起，則彈簧磅秤上的指針是指在100公克或110公克？&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0910.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;圖1：小鳥站在無蓋的箱底，彈簧磅秤量得110公克的重量。&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;&amp;nbsp;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0912.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;圖2：小鳥飛在無蓋的箱內，請問彈簧磅秤量得的重量是多少？&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;&amp;nbsp;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0911.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;圖3：小鳥飛在有蓋密封的箱內，請問彈簧磅秤量得的重量是多少？&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt" /&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;小鳥重多少&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;？解答。&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;小鳥飛在無蓋的箱子內重量是100公克，小鳥飛在密閉箱子內彈簧磅秤上的指針是110公克。理由如下：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;空中飛翔的物體，如鳥、蜜蜂、直昇機、飛機的重量是靠空氣支撐。而空氣是由大地支撐著。機翼或鳥翼一方面藉著空氣的推升而上揚，另一方面也向下壓著空氣，使大地或箱子感受空氣施與的重量。&lt;/span&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt"&gt;在沒有蓋子的箱子裡，支撐小鳥的空氣將小鳥的重量，傳輸到整個大地，因此彈簧磅秤幾乎量測不到小鳥的重量。但是密閉的箱內，箱內的空氣無法和外界的空氣流通，整個支撐小鳥重量的空氣全部傳輸到箱底。不管小鳥飛起來或停下來，箱子的重量是不會改變，即磅秤上的指針永遠是110公克，如果將箱子挖一小孔，那麼重量就會隨孔的大小作改變。&lt;/span&gt;&lt;/p&gt;</description>
+      <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259&amp;step=1&amp;newsno=16465</link>
+      <pubDate>Fri, 11 Dec 2009 15:55:42 GMT</pubDate>
+      <pubDateParsed>2009-12-11T15:55:42</pubDateParsed>
+      <title>小鳥重多少？</title>
+    </item>
+    <item>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;何者滑最快&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;？简体&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;江铭辉&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;五梦网&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;某钢铁工厂希望建造一条从A点到B点的铁轨，以便将位于某栋5层楼高A点的一些钢珠借着重力以最快速度运到隔栋一楼的B点。如图1。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0960.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;图1：某刚铁工厂想把高处（A点）的钢珠借着重力以最快速度滑到低处（B点）。&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;老板召集厂内的工程师开会讨论，工程师开会讨论的结果，画出图2三条线，A、B、C三名工程师，各有理由，各自争论不已，A工程师认为曲线1从A点到B点是直线，二点之间以直线最短，所以钢珠滑下时间应该最快。曲线2是摆线，它之所以被认为时间最短，是因为B工程师有一次去听演讲，听到。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;聪明的读者，请问何者才正确。C工程师认为如果曲线2可以滑得比曲线1更快，那么较湾曲的曲线3，一定滑得更快。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;聪明的读者，请问何者才正确？&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 14px"&gt;&lt;strong&gt;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0959.jpg" alt="" /&gt;&amp;nbsp;&lt;br /&gt;
+图2&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px" /&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 18px"&gt;&lt;strong&gt;何者滑最快？答案。&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;&lt;img border="0" hspace="10" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0962.jpg" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;图3&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;我们的答案是曲线2，它是一条摆线，曲线1在刚A点附近时加速太小，曲线3在接近B点时加速太小（如图3），它的历史如下：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;这个问题叫最速降线（brachistochrone），它是1696年瑞士数学家约翰.伯努利（John Bernoulli）提出向全世界 数学家挑战的著名问题。问题为：设A、B二点（不在垂直线上），且A点高于B点，求一曲线，使一质点在重力的作用下，从高点A沿着此曲线下滑到低点B的时间最短。最降速线的答案是连结A、B二点的曲线是摆线。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="font-size: 16px"&gt;最降速线其实在约翰.伯努利之前，1638年家伽利略就已系统研究过，约翰.伯努利只不过旧事重提，引起全世界数学家的注意，牛顿（I. Newton）在1697年1月29日，得知此问题时，当天就将答案解出，莱布尼兹（G.W. Leibniz）、落必达（ M. de L&amp;rsquo;Hopital）、约翰.伯努利及约翰的兄长雅各布.伯努利（Jakob Bernoulli）也给出正确答案。&lt;/span&gt;&lt;/p&gt;</description>
+      <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259&amp;step=1&amp;newsno=16377</link>
+      <pubDate>Sun, 06 Dec 2009 15:00:21 GMT</pubDate>
+      <pubDateParsed>2009-12-06T15:00:21</pubDateParsed>
+      <title>何者滑最快？简体</title>
+    </item>
+    <item>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;何者滑最快&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;？&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 11pt"&gt;江銘輝 五夢網&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;某鋼鐵工廠希望建造一條從A點到B點的鐵軌，以便將位於某棟5層樓高A點的一些鋼珠藉著重力以最快速度運到隔棟一樓的B點。如圖1。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;img border="0" hspace="10" alt="" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0960.jpg" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 14px"&gt;圖1：某剛鐵工廠想把高處（A點）的鋼珠藉著重力以最快速度滑到低處（B點）。&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;老闆召集廠內的工程師開會討論，工程師開會討論的結果，畫出圖2三條線，A、B、C三名工程師，各有理由，各自爭論不已，A工程師認為曲線1從A點到B點是直線，二點之間以直線最短，所以鋼珠滑下時間應該最快。曲線2是擺線，它之所以被認為時間最短，是因為B工程師有一次去聽演講，聽到。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;聰明的讀者，請問何者才正確。C工程師認為如果曲線2既然可以滑得比曲線1更快，那麼較灣曲的曲線3，一定滑得更快。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;聰明的讀者，請問何者才正確？&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&lt;img border="0" hspace="10" alt="" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0959.jpg" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px"&gt;圖2&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px" /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-size: 16px"&gt;何者滑最快？答案。&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&lt;img border="0" hspace="10" alt="" vspace="10" align="center" src="http://www.meworks.net/userfile/38110/m-0961.jpg" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;圖3&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;我們的答案是曲線2，它是一條擺線，曲線1在剛A點附近時加速太小，曲線3在接近B點時加速太小（如圖3），它的歷史如下：&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;這個問題叫最速降線（brachistochrone），它是1696年瑞士數學家約翰.伯努利（John Bernoulli）提出向全世界 數學家挑戰的著名問題。問題為：設A、B二點（不在垂直線上），且A點高於B點，求一曲線，使一質點在重力的作用下，從高點A沿著此曲線下滑到低點B的時間最短。最降速線的答案是連結A、B二點的曲線是擺線。&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 16px"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="font-size: 16px"&gt;最降速線其實在約翰.伯努利之前，1638年家伽利略就已系統研究過，約翰.伯努利只不過舊事重提，引起全世界數學家的注意，牛頓（I. Newton）在1697年1月29日，得知此問題時，當天就將答案解出，萊布尼茲（G.W. Leibniz）、落必達（ M. de L&amp;rsquo;Hopital）、約翰.伯努利及約翰的兄長雅各.伯努利（Jakob Bernoulli）也給出正確答案。&lt;/span&gt;&lt;/p&gt;</description>
+      <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259&amp;step=1&amp;newsno=16376</link>
+      <pubDate>Sun, 06 Dec 2009 10:38:38 GMT</pubDate>
+      <pubDateParsed>2009-12-06T10:38:38</pubDateParsed>
+      <title>何者滑最快？</title>
+    </item>
+    <item>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 0.35pt"&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;异想天开&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="font-size: 14pt"&gt;有一天老马带了三个铅球想走过一个座木桥&lt;/span&gt;&lt;span style="font-size: 14pt"&gt;;&lt;/span&gt;&lt;span style="font-size: 14pt"&gt;但此桥只能支持&lt;/span&gt;&lt;span style="font-size: 14pt"&gt;200&lt;/span&gt;&lt;span style="font-size: 14pt"&gt;磅重量，而老&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;马体重有&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;180&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;磅，每个铅球有&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;10&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;磅重。因为老马计划只走一趟木桥，所以这难题困惑了老马。此时有人建议老马，他可一边走过独木桥一边像玩空中抛球把戏，将其中一个球抛向空中，两只手每只手各握一个球这样手中只维持两个铅球，而永远有一个球留在空中。请问老马最后是走两趟木桥或接受此人的建议&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;?&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;为什么&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="ZH-CN" style="font-size: 11pt; font-family: SimSun; mso-ascii-font-family: 標楷體; mso-hansi-font-family: 標楷體; mso-bidi-font-family: 細明體; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"&gt;&lt;img hspace="10" src="http://www.meworks.net/userfile/38110/m-0169.jpg" align="center" vspace="10" border="0" alt="" /&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span lang="ZH-CN" style="font-size: 11pt; font-family: SimSun; mso-ascii-font-family: 標楷體; mso-hansi-font-family: 標楷體; mso-bidi-font-family: 細明體; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"&gt;图：老马能用空中抛球把戏，走过独木桥吗&lt;/span&gt;&lt;span lang="EN-US" style="font-size: 11pt; font-family: 標楷體; mso-fareast-font-family: SimSun; mso-bidi-font-family: 細明體; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"&gt;?&lt;/span&gt;&lt;/p&gt;
+&lt;div style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 0.35pt"&gt;&lt;b&gt;&lt;span style="font-size: 14pt"&gt;异想天开之解答&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; margin: 3.75pt 0cm 0pt 0.35pt"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="text-justify: inter-ideograph; margin: 3.75pt 0cm 0pt 0.35pt"&gt;&lt;span style="font-size: medium"&gt;老马不能接受这个人的建议，他最后还是走两趟木桥。&lt;/span&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt"&gt;当老马手上只有二个球，另一个球在空中时，老马重量是&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;200&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;磅（&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;180&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;磅＋&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;2&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;&amp;times;&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;10&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;磅），但按照牛顿运动第二及第三定律，老马把铅球往上抛时，需要用力，才能将球王往上抛，且抛的越高，用力越大，此外球落在手上时也须要力。这种抛球及接球的动作，都使老马体重超过&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;200&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;磅（&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;180&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;磅＋&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;10&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;磅＋大于&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;10&lt;/span&gt;&lt;span style="font-size: 12pt"&gt;磅的球），因此老马如果接受此人的建议，则将坠入河中。&lt;/span&gt;&lt;/p&gt;</description>
+      <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259&amp;step=1&amp;newsno=15928</link>
+      <pubDate>Sun, 08 Nov 2009 01:05:10 GMT</pubDate>
+      <pubDateParsed>2009-11-08T01:05:10</pubDateParsed>
+      <title>异想天开简体</title>
+    </item>
+    <link>http://www.meworks.net/meworksv2a/meworks/page1.aspx?no=221259</link>
+    <title>五夢網 » 似是而非？</title>
+    <pubDate>Wed, 27 Nov 2024 05:32:47 GMT</pubDate>
+  </channel>
+</rss>

@@ -1,0 +1,418 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72955636-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head id="meworks_header"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+		<!--<base id="meworks_http_base">--></base><title>迴歸分析漫談 @ 數學 :: 五夢網</title>
+<meta name="keywords" content="迴歸,曲線,直線,歸線,增加,迴歸線,預測," />
+<meta name="description" content="迴歸分析漫談 迴歸分析漫談（Regression Analysis） 江銘輝 五夢網 研究多個（或一個）隨機變數（Y1,Y2, Y3, Y4,……, Yi）與另一些隨機變數（X1,X2, X3, X4,……, Xk），關係的統計方法，叫迴歸分析。" />
+<meta property="og:title" content="迴歸分析漫談 @ 數學 :: 五夢網" />
+<meta property="og:description" content="迴歸分析漫談 迴歸分析漫談（Regression Analysis） 江銘輝 五夢網 研究多個（或一個）隨機變數（Y1,Y2, Y3, Y4,……, Yi）與另一些隨機變數（X1,X2, X3, X4,……, Xk），關係的統計方法，叫迴歸分析。" />
+<meta property="og:site_name" content="五夢網" /><link href="pageScript.ashx%EF%B9%96p=page1&amp;u=38110&amp;param=meworks&amp;t=css.css" rel="stylesheet" type="text/css"></link>
+<link href="pageScript.ashx%EF%B9%96p=page1&amp;u=38110&amp;param=221249&amp;t=css.css" rel="stylesheet" type="text/css"></link>
+<script src="pageScript.ashx%EF%B9%96p=page1&amp;u=38110&amp;param=221249&amp;t=js.js" language="JavaScript" type="text/javascript"></script>
+<link rel="alternate" type="application/rss+xml" title="數學" href="pagerss.ashx%EF%B9%96oid=221249.rss"></link></head>
+	<body id="Body" class="mc00b">
+		<form name="_ctl1" method="post" action="page1.aspx%EF%B9%96no=221249&amp;step=1&amp;newsno=20418.html" id="_ctl1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE0OTU2NzMxMzYPZBYGZg8WAh4EVGV4dAU/PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMCBUcmFuc2l0aW9uYWwvL0VOIiA+ZAICD2QWAgIDDxYCHgdWaXNpYmxlaGQCBA9kFgICAQ9kFgICBQ8WAh8BaGQYAQUfYjIyMTI0OTphdHRhY2hfZmlsZTptZXdvcmtzaXRlbQ9nZOhOQVXY+TGyPhqgB510g/TQkbp7" />
+
+			
+			<link rel="stylesheet" type="text/css" href="../../userfile/38110/manu.css" /><script type="text/javascript" src="../../userfile/38110/menu.js"></script><script> 
+var myfar; 
+var mytitle; 
+myfar="http://www.fivedream.com/"; 
+mytitle=":::五夢網:::"; 
+function favority() { 
+if (navigator.appName!="Netscape"){ 
+window.external.AddFavorite(myfar, mytitle); 
+}else{ 
+window.location = myfar; 
+} 
+} 
+</script>
+<table cellspacing="0" cellpadding="0" align="center" id="contant_bg">
+    <tbody>
+        <tr>
+            <td>
+            <div id="contant_t">
+            <div id="contant_b"><div id="htmllayer" class="htmllayer" style="WIDTH: 0px; POSITION: absolute; HEIGHT: 0px"><div style="left: -868px; top: 25px; width: 288px; height: 56px; position: absolute;" id="mwid_tdW3sLgzUnpKBL4" class="mwobject mwdohandle" sizcache="4" sizset="0"><a style="width: 100%; height: 100%; display: block;" class="[MW:null]" href="page.aspx%EF%B9%96no=38110.html" target="_self" mwsrc="page.aspx?no=38110"><img class="mwimage" src="../../userfile/38110/logo3.png" mwsrc="/userfile/38110/logo3.png" /></a></div><div style="border: currentColor; left: 83px; top: 205px; width: 120px; height: 338px; position: absolute;" id="mwid_IPruU6w9mxQML21" class="mwobject mwdohandle"> 
+<p style="text-align: center;"><span style="font-size: 15px;"><strong><span style="color: rgb(7, 61, 91);"><a class="[MW:221249]" href="page1.aspx%EF%B9%96no=221249.html" target="_self" mwsrc="page1.aspx?no=221249">數學</a><br /><a class="[MW:221251]" href="page1.aspx%EF%B9%96no=221251.html" target="_self" mwsrc="page1.aspx?no=221251">化學</a><br /><a class="[MW:221252]" href="page1.aspx%EF%B9%96no=221252.html" target="_self" mwsrc="page1.aspx?no=221252">生物（健康）</a><br /><a class="[MW:221253]" href="page1.aspx%EF%B9%96no=221253.html" target="_self" mwsrc="page1.aspx?no=221253">物理</a><br /><a class="[MW:221254]" href="page1.aspx%EF%B9%96no=221254.html" target="_self" mwsrc="page1.aspx?no=221254">氣象與地震</a><br /><a class="[MW:221255]" href="page1.aspx%EF%B9%96no=221255.html" target="_self" mwsrc="page1.aspx?no=221255">環保與能源</a><br /><a class="[MW:221250]" href="page1.aspx%EF%B9%96no=221250.html" target="_self" mwsrc="page1.aspx?no=221250">工程</a></span></strong></span></p></div><div style="border: currentColor; left: 107px; top: 476px; width: 70px; height: 18px; position: absolute;" id="mwid_JUQXBVy8FA5gFur" class="mwobject mwdohandle" sizcache="4" sizset="1"><a style="width: 100%; height: 100%; display: block;" class="[MW:null]" href="page.aspx%EF%B9%96no=38110.html" target="_self" mwsrc="page.aspx?no=38110"><img class="mwimage" src="../../userfile/38110/m-btn_02.png" mwsrc="/userfile/38110/m-btn_02.png" /></a></div></div>
+            <div id="topMenu">
+            <div onmouseover="MenuOn(1)" onmouseout="MenuOff(1)" class="Wmenu1"><img height="25" width="76" src="../../userfile/38110/menu3-1.png" alt="" />
+            <div id="submenu1" class="submenu"><a href="page1.aspx%EF%B9%96no=220713.html">網站負責人</a> <span>｜</span> <a href="page1.aspx%EF%B9%96no=220712.html">網站宗旨</a></div>
+            </div>
+            <div class="Wmenu2"><a href="javascript:favority()"><img height="25" width="107" src="../../userfile/38110/menu3-2.png" alt="" /></a></div>
+            <div onmouseover="MenuOn(2)" onmouseout="MenuOff(2)" class="Wmenu3"><a href="page1.aspx%EF%B9%96step=apply&amp;no=220091.html"><img height="25" width="107" src="../../userfile/38110/menu3-3.png" alt="" /></a>
+            <div id="submenu2" class="submenu"><a href="page1.aspx%EF%B9%96step=1&amp;no=220723.html">忘記密碼</a></div>
+            </div>
+            <div class="Wmenu4"><a href="page1.aspx%EF%B9%96no=222115.html"><img height="25" width="103" src="../../userfile/38110/menu3-4.png" alt="" /></a></div>
+            <div class="Wmenu5"><a href="page1.aspx%EF%B9%96no=220722.html"><img height="25" width="106" src="../../userfile/38110/menu3-5.png" alt="" /></a></div>
+            <div style="clear: both;"></div>
+            </div>
+            <div class="clear"></div>
+            <div id="leftMenu"></div>
+            <div id="main"><span id="mbig">&nbsp;<span class="mw_news_step1_block">
+	<span class="mc96f mw_link mw_news_step1_nav_title">
+	&raquo; &nbsp;<a id="b221249_object_title_link" class="mc96f mw_link" href="page1.aspx%EF%B9%96no=221249.html">數學</a>&nbsp;
+	</span>
+	
+	<span class="mc96f mw_news_step1_info_block">
+		<span class="mc96f mw_news_step1_date"><span id="b221249_news_date" class="mc98f mw_title mw_news_step1_date">2010-05-18</span></span>
+		<span class="mc96f mw_news_step1_title"><span id="b221249_news_title" class="mc96f mw_title mw_news_title mw_news_step1_title">迴歸分析漫談</span></span>
+	</span>
+	<span class="mc96f mw_news_step1_content"><span id="b221249_news_content" class="mc98f mw_content mw_news_content mw_news_step1_content"><p>&nbsp;</p>
+<div><b><span style="font-size: 14pt">迴歸分析漫談</span></b><b><span style="font-size: 14pt">（Regression Analysis） </span></b><b>江銘輝<span>&nbsp;五夢網</span></b></div>
+<div><span style="font-size: 18px">研究多個（或一個）隨機變數（Y<sub>1</sub>,Y<sub>2</sub>, Y<sub>3</sub>, Y<sub>4</sub>,&hellip;&hellip;, Y<sub>i</sub>）與另一些隨機變數（X<sub>1</sub>,X<sub>2</sub>, X<sub>3</sub>, X<sub>4</sub>,&hellip;&hellip;, X<sub>k</sub>），關係的統計方法，叫迴歸分析。迴歸分析的由來是高爾登（Sir Francis Galton）比較兒子與其父親的身高時，祖先是高父親的兒子經世代相傳，會回歸到全體人口的平均高度，因此祖先是特別高的人，其後代有矮化的趨勢，換言之，因此祖先是特別矮的人，其後代有長高的趨勢。現今統計學的迴歸分析只單純作各種預測分析，沒有迴歸至全體平均值的意思。迴歸分析中最簡單的是y = a+ bx的線性迴歸曲線。</span></div>
+<div><span style="font-size: 18px">&nbsp;</span></div>
+<div><span style="font-size: 18px"><b>根據過去</b><b>，預測未來</b></span></div>
+<div><span style="font-size: 18px">因為過去是如此，將來也是如此。每天搭20路車子上班，所以昨天、今年都搭它上班，這是想當然兒。然而，然人類社會，有許多狀況，過去是如此，但未來未必是如此。昨天20路車子的，今日可能改道。雖然如此，社會還是存在許多的因為，如此。所以我們必須從許多的「因為」場合，模擬「如此」的應付方法。這就需要「<b>預測能力</b>」。</span></div>
+<div><span style="font-size: 18px">&nbsp;</span></div>
+<div><span style="font-size: 18px"><b>時間數列的迴歸分析</b></span></div>
+<div><span style="font-size: 18px">時間數列的迴歸分析法就是收集一段時間之內的種種數據，分析並推算其趨勢，再按其趨勢推出未來可能的結果。例如：有一去企業經營超市很成功，開業第一年就設10家分店，在業務蒸蒸日上後，第2年分店增到12家，第3年分店增到16家、第4年22家、第5年30家，5年之內，分店增加3倍。它可以畫成圖1的圖形。橫軸代表時間，以年為單位；縱軸代表分店數，黑點表示理論值，星號表是實際開店數。</span></div>
+<div><span style="font-size: 18px">現在讓我們來預測再過3年超市可能增加到幾店。為了求問題答案，我們從這些實績點的軌跡劃出一條直線，條件是所有實績點與此直線的距離為最短。若實績點在直線上方距離則記下正數，在直線下方距離則記下負數，所為實績點與此直線的距離為最短，就是所有點的正數加負數的和是0。這條直線我們稱為迴歸線。只要知道迴歸線我們就可預測再過3年超市可能增加到幾店。</span></div>
+<div><span style="font-size: 18px">&nbsp;</span></div>
+<div><span style="font-size: 18px"><b>用簡單數學求出迴歸線</b></span></div>
+<div><span style="font-size: 16px"><strong><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;; mso-bidi-font-size: 11.0pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA" /></strong></span></div>
+<div><span style="font-size: 16px"><strong><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;; mso-bidi-font-size: 11.0pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA"><img border="0" hspace="10" vspace="10" align="center" src="../../userfile/38110/m-%E8%BF%B4%E6%AD%B8500.jpg" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong></span></div>
+<div><span style="font-size: 16px"><strong><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;; mso-bidi-font-size: 11.0pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">圖<span lang="EN-US">1</span></span><span style="font-family: SimSun; mso-bidi-font-size: 11.0pt; mso-ascii-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri" lang="ZH-CN">：</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;; mso-bidi-font-size: 11.0pt; mso-ascii-theme-font: minor-fareast; mso-fareast-theme-font: minor-fareast; mso-hansi-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: ZH-TW; mso-bidi-language: AR-SA">企業家每年增加數目</span></strong></span></div>
+<div><span style="font-size: 18px">由圖1，可知它是一條直線的迴歸線，它的數學式是：</span></div>
+<div><span style="font-size: 18px">Y= a+bx；從所有實績點與此直線的距離為最短的條件中我們可得出（我們暫時略去推算a、b的過程）：</span></div>
+<div><span style="font-size: 18px">b= （n&Sigma;x<sub>i</sub>y<sub>i</sub>-【&Sigma;x<sub>i</sub>】【&Sigma;y<sub>i</sub>】）/（n&Sigma;x<sub>i</sub><sup>2</sup>-【&Sigma;x<sub>i</sub>】<sup>2</sup>）&hellip;&hellip;（1）</span></div>
+<div><span style="font-size: 18px">a=<u>y</u>-b<u>x</u>&hellip;&hellip;（2）<u>y</u>、<u>x </u>是平均值。</span></div>
+<div><span style="font-size: 18px">因此上面問題求出a、b值的方法如下：</span></div>
+<div><span style="font-size: 18px">1. 將5年的x值（1、2、3、4、5）相加，得15。</span></div>
+<div><span style="font-size: 18px">2. 將5年的分店數，即所有y值（10、12、16、22、30）相加，得90。</span></div>
+<div><span style="font-size: 18px">3. 記下每年的的x&times;y值，並求其總和為320。</span></div>
+<div><span style="font-size: 18px">4. 求每年的x<sup>2</sup>值，並求其總和為55。</span></div>
+<div><span style="font-size: 18px">將1、2、3、4的值 製成下表示：</span></div>
+<p>
+<table style="border-bottom: medium none; border-left: medium none; border-collapse: collapse; border-top: medium none; border-right: medium none" border="1" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td style="border-bottom: black 1pt solid; border-left: black 1pt solid; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: black 1pt solid; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">&nbsp;</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: black 1pt solid; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">x</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: black 1pt solid; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">y</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: black 1pt solid; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">Xy</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: black 1pt solid; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">X<sup>2</sup></span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom: black 1pt solid; border-left: black 1pt solid; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">第一年</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">1</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">10</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">10</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">1</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom: black 1pt solid; border-left: black 1pt solid; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">第二年</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">2</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">12</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">24</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">4</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom: black 1pt solid; border-left: black 1pt solid; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">第三年</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">3</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">16</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">48</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">9</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom: black 1pt solid; border-left: black 1pt solid; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">第四年</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">4</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">22</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">88</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">16</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom: black 1pt solid; border-left: black 1pt solid; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">第五年</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">5</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">30</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">150</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">25</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom: black 1pt solid; border-left: black 1pt solid; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">合計</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">15</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.6pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="111">
+            <div><span style="font-size: 18px">90</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">320</span></div>
+            </td>
+            <td style="border-bottom: black 1pt solid; border-left: #f0f0f0; padding-bottom: 0cm; background-color: transparent; padding-left: 5.4pt; width: 83.65pt; padding-right: 5.4pt; border-top: #f0f0f0; border-right: black 1pt solid; padding-top: 0cm" valign="top" width="112">
+            <div><span style="font-size: 18px">55</span></div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+<div><span style="font-size: 18px">表：迴歸線Y= a+bx；a、b值的計算表</span></div>
+<div><span style="font-size: 18px">&nbsp;</span></div>
+<div><span style="font-size: 18px">由公式1得b=（5&times;320-15&times;90）/（5&times;55-15<sup>2</sup>）=250/50=5</span></div>
+<div><span style="font-size: 18px">由公式2及圖1；得 a=y-bx，當x為1時，y為8；b為5，得a為3。</span></div>
+<div><span style="font-size: 18px">&nbsp;</span></div>
+<div><span style="font-size: 18px">因此此條迴歸線是Y=3+5x</span></div>
+<div><span style="font-size: 18px">&nbsp;</span></div>
+<div><span style="font-size: 18px">只要知道迴歸線，未來預測就很簡單，三年後，亦即第8年開店的欲估值是：</span></div>
+<div><span style="font-size: 18px">Y=3+5&times;8=43</span></div>
+<div><span style="font-size: 18px">&nbsp;</span></div>
+<div><span style="font-size: 18px"><b>四種類型的迴歸線</b></span></div>
+<div><span style="font-size: 18px"><b>&nbsp;</b></span></div>
+<div style="text-indent: -18pt; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>1.<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b>直線型</b></span><b><a class=" FCK__AnchorC FCK__AnchorC FCK__AnchorC FCK__AnchorC" name="OLE_LINK1"><span style="font-size: 18px">迴歸線</span></a></b></div>
+<div style="margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>&nbsp;</b></span></div>
+<div><span style="font-size: 18px">上面所舉例的超級市場分店的例子，它的迴歸線是直線。所以是直線的，因為它每年以等差級數的數量增加，畫出來的曲線是直線。其圖型如圖2。</span></div>
+<div><span style="font-size: 18px"><span style="font-size: 12pt"><strong><img border="0" hspace="10" vspace="10" align="center" src="../../userfile/38110/m-%E8%BF%B4%E6%AD%B85010.jpg" alt="" />&nbsp;</strong></span></span></div>
+<div><span style="font-size: 18px"><span style="font-size: 12pt"><strong>圖2：直線型迴歸曲線（y= a+bx）</strong></span></span></div>
+<div><span style="font-size: 18px"><b>&nbsp;</b></span></div>
+<div style="text-indent: -18pt; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>2.<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b>指數型</b><b>迴歸線</b></span></div>
+<div style="margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>&nbsp;</b></span></div>
+<div><span style="font-size: 18px">但是，世界上每一樣事物的增加方式並不都是直線。例如細菌的繁殖方式就不是。假定細菌是每分鐘以1倍的比例在繁殖。如國果繁殖一公升的細菌須要24小時，那麼繁殖半公升的細菌需多少小時？答案當然不是12小時，正確數字是23小時59分鐘，1分鐘增加1倍，其時增加的比率也是定值，經濟成長也是一樣，假設民國五十年的國民總生產額為8億8千萬元，民國60年卻達43億2千萬元，它應該不是每年以1億元的等差數目在增加，它大約是每年以10%的速率在增加。換句話說，如有一年的國民總生產額為9億元，第二年鷹該是9億9千萬元。如果某一年是43億元，次年則應該是47億3千萬元，這種情況的迴歸線是屬於圖3的急速上升指數曲線型。</span></div>
+<div><span style="font-size: 18px">&nbsp;<img border="0" hspace="10" vspace="10" align="center" src="../../userfile/38110/m-%E8%BF%B4%E6%AD%B8501.jpg" alt="" />&nbsp;</span></div>
+<div><span style="font-size: 18px"><span style="font-size: 16px"><strong>圖3：指數型迴歸曲線（y= ab<sup>x</sup>）</strong></span><span /></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; text-indent: -18pt; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px" /></div>
+<div style="text-justify: inter-ideograph; text-align: justify; text-indent: -18pt; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>3.<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b>對數型迴歸線</b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>&nbsp;</b></span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px">相反的，有一種情形是增加的幅度隨著時間的延長而減低。例如，小孩體重增加的情形。剛出生嬰兒的體重大約3公斤，滿週歲時已到了大約9公斤。等於說一年增加了6六公斤，亦即增加3倍。如果按這種比率增加的話，8歲就應該到達57公斤，這就變成大人了。事實上並不然，一般情況是，滿2歲是11公斤（增加22%），滿3歲才12.8公斤（增加16%）其增加的速率逐年在下降。這種情形的迴歸線是屬於圖4的對數型曲線。</span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px" /></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px"><img border="0" hspace="10" vspace="10" align="center" src="../../userfile/38110/m-%E8%BF%B4%E6%AD%B8502.jpg" alt="" />&nbsp;</span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px">&nbsp;<span style="font-size: 12pt"><strong>圖4：對數型迴歸曲線（y= log<sub>b </sub>ax）</strong></span></span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px" /></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px" /></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px"><span style="font-size: 12pt" /></span><span style="font-size: 18px"><b>4.<span style="font: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b>邏輯型迴歸線</b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>&nbsp;</b></span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px">第四種情形是，如圖5的S型曲線，這種曲線稱為邏輯曲線，是經常使用於預測商品需要量的迴歸線。以電視機的情形為例，當電視剛開出現始的時候，電視機對於一般人來說仍是可望而不可及的奢侈品，除非有錢人家，屋頂上的天線寥寥無幾。等到第二家，第三家電視台陸續開播後，節目內容有了改進，各種盛大的現場轉播引起了一般人的興趣，既然隔壁裝了電視機，我家也不落後的，在這種情況下，電視機的銷售率，急速上升。如圖5上的B點。</span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px"><span style="font-size: 12pt"><strong><img border="0" hspace="10" vspace="10" align="center" src="../../userfile/38110/m-%E8%BF%B4%E6%AD%B8503.jpg" alt="" />&nbsp;</strong></span></span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px"><span style="font-size: 12pt"><strong>圖5：邏輯型迴歸曲線（y=R/(1+ae<sup>-bx</sup>)）</strong></span></span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px" /></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px">以上所述直線型、指數型、對數型、邏輯型乃是迴歸線的四種型態。一般經濟都是越來越繁榮，但世界上還是有許多向下降的曲線，比如：沒落的商品、農村人口的增加率，年齡與頭髮，都是。也有曲線下降是可喜的，例如，車禍，空氣污染、夫妻吵架的次數&hellip;&hellip;等等。</span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px"><b>如何選擇迴歸曲線</b></span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px"><b>&nbsp;</b></span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px">我們所搜集的數據究竟與那一種迴歸曲線最相似，換言之，我們如何選擇迴歸曲線。簡單地說明如下，供我們靈活應用這四種基本類型。</span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; text-indent: -18pt; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">1.&nbsp;<b>直線型迴歸曲線</b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">隨時間變化的直線迴歸線是增加的數值為等差，亦即，單位時間內的工作量相等。這種例子極為普遍，也是最基本的例子。如步行的時間和步行距離，或者每月儲蓄一定金頓的儲蓄總額，都是直線型的迴歸線。只要實際點差不多散佈在一個直線方向，則用直線來預測未來並無不妥。這種迴歸線則以y=a+bx來表示。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; text-indent: -18pt; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">2.&nbsp;<b>指數型迴歸曲線</b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; text-indent: -21.25pt; margin: 0cm 0cm 0pt 21.25pt"><span style="font-size: 18px">&nbsp;&nbsp; 亦即未來的趨勢線是以等比或近於等比延伸的曲線，比如說，經濟成長率每 年10%，就是典型的指數型曲線，這一類實例也相當多。如前述細菌的繁殖情形．或每年以一定百分比上昇的物價等，都是等比的延伸曲線。經濟或企業的管理，如果基數大，則其延伸的絕對量也隨著增大，因此一般都使用指數曲線。這種迴歸式以y= ab<sup>x</sup>表示之。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; text-indent: -18pt; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">3.&nbsp;<b>對數型迴歸曲線</b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">這種曲線的性質是，開始的延伸的幅度逐漸變小，最後近於水平延伸。它適用於身高，體重等增加量有限接的情形，或者，如高爾夫球和圍棋等技術的進步等都可以利用這種曲線來預測，其他如沒落中商品的生產量也是屬於這種類型。迴歸曲線為y= log<sub>b</sub>ax。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; text-indent: -18pt; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">4.&nbsp;<b>邏輯型迴歸曲線</b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">這種曲線一般應用於商品的普及率或商品壽命的預測。只要開始的增加量小，中間大，最後不再增加的情形都可以適用。有些人的高爾夫球技或圍棋的進步情形的時間數列並不屬於上述的對數曲線型，而屬於邏輯型曲線，其迴歸曲線為y=R/(1+ae<sup>-bx</sup>)，R是常數。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">上述直線型，指數理，對數型和邏輯型是四種迴歸線的基本型態。只要將隨時間變化的數據套入其中適合的迴歸式，然後計算它的值就可以。直線迴歸式的計算方法前面已經說明。指數型．對數型，邏輯型迴歸式的計算方法請參閱註1、2、3。有些曲線雖然類似指數型或對數型，但是，其預測場合卻以二次式曲線比較安當。其計算方法如註4。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">註1：</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>指數型迴歸曲線的計算方法</b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>Y= ab</b><b><sup>x</sup></b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">取二邊的對數</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">log y= log a+ x log b</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">設log a=a&rsquo;； log b= b&rsquo;； log y= y&rsquo;；</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">則y&rsquo;= a&rsquo;+ xb&rsquo;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">然後根據直線的迴規線計算方法求a&rsquo;、 b&rsquo;的值。則可以得迴規曲線。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">註2：</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>對數型迴歸曲線的計算方法</b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">Y= log<sub>b </sub>ax</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">還原為指數型，則：</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">b<sup>y</sup>= ax</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">x= 1/a&times;b<sup>8</sup></span><span /></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">設log x=x&rsquo;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">log 1/a=a&rsquo;； log b=b&rsquo;，則：</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">log（x）= log（1/a&times;b<sup>y</sup>）= log（1/a）+ log（b<sup>y</sup>）</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">x&rsquo;= a&rsquo;+ b&rsquo;y</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">然後根據直線的迴規線計算方法求a&rsquo;、 b&rsquo;的值。則可以得迴歸曲線。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">註3：</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>邏輯型迴歸曲線的計算方法</b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>邏輯型迴歸曲線為：</b>y=R/(1+ae<sup>-bx</sup>)；將式變為：y/R=1/(1+ae<sup>-bx</sup>)；即：</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>R/y=</b>1+ae<sup>-bx</sup>；即：（R-y）/y = ae<sup>-bx</sup>=a/e<sup>bx</sup>；即：y/（R-y）=1/a&times;e<sup>bx</sup></span><span /></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">二邊取對數：log y/（R-y）= log【1/a&times;e<sup>bx</sup>】；得log y/（R-y）= bx- loga</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">設log y/（R-y）= y&rsquo;； - loga=a&rsquo;；則y&rsquo;= a&rsquo;+bx</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">然後根據直線的迴規線計算方法求a&rsquo;、 b&rsquo;的值。則可以得迴歸曲線。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">註4：</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>二次曲線的迴歸曲線計算方法</b></span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">二次曲線的迴歸曲線為y= a+b+bx+cx<sup>2</sup></span><span /></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">解方程式</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&Sigma;y = na+ b&Sigma;x + c&Sigma;x<sup>2</sup></span><span /></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&Sigma;xy= a&Sigma;x + b&Sigma;x<sup>2</sup>+ c&Sigma;x<sup>3</sup></span><span /></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&Sigma;x<sup>2</sup>y= a&Sigma;x<sup>2</sup> + b&Sigma;x<sup>3</sup>+ c&Sigma;x<sup>4</sup></span><span /></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&Sigma;：為總和；求a、b、c。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px"><b>預測值的準確度</b></span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px" /></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px" /></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px"><b><img border="0" hspace="10" vspace="10" align="center" src="../../userfile/38110/m-%E8%BF%B4%E6%AD%B8510.jpg" alt="" />&nbsp;</b></span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px" /></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px"><b>&nbsp;<img border="0" hspace="10" vspace="10" align="center" src="../../userfile/38110/m-%E8%BF%B4%E6%AD%B8520.jpg" alt="" />&nbsp;</b></span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px" /></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px"><b>如圖6、7；圖6</b>，所有實績點都很靠近迴歸線，或者落在線上。圖7的場合，實績點的散佈比較廣，因此，在圖6，求三年後的預測值，預測對的機率很大，相反的，在圖7的場合，從線上取3年後的預測值，將會使人懷疑它的可靠性。</span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph"><span style="font-size: 18px">根據迴歸線和實績點散佈的情形．預測可以分為「可靠」或「不可靠」。測定實績點散佈的情形稱為相關係數。不管迴歸曲線是直線或曲線．其相關係數的計算方法皆相同。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">茲舉前述超級市場的分店擴充為例，說明相關係數的計算方法。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; text-indent: -18pt; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">1.&nbsp;將超級市場的資料排成表2的形式。表上 x-<u>x</u>的值是每年的x的值與x的平均值（本例的平均值等於3）的差。第2年是2-3=-1。同樣地，y-<u>y</u>的值是每年的y的值與y的平均值（本例的平均值是18），第4年應該是22-18=4。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">&nbsp;</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; text-indent: -18pt; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">2.&nbsp;求出每年的x和y值後，再計算x &times; y、x<sup>2</sup>、y<sup>2</sup>的值，然後再求合計值，x &times; y的合計值是50。x<sup>2</sup>的合計為1O，y<sup>2</sup>的合計為264。 根據下面的公式求相關係數R。</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">R= xy的合計/（x<sup>2</sup>的合計&times;y<sup>2</sup>的合計）的開根號 =50/（10&times;264）的開根號=50/51.4=0.973</span></div>
+<div style="text-justify: inter-ideograph; text-align: justify; margin: 0cm 0cm 0pt 18pt"><span style="font-size: 18px">這表是實績點與回歸線的分佈情況，如果實績點的分佈再靠近回歸線，則相關係數可能是0.99，如果實績點全部落在回歸線上，那麼相關係數就是1。如果相關係數是負數，則實績點大部分落在右下方。如果相關係數底低於0.9，甚至連0.8都不到那麼從這條回歸線所作預測值的準確度就有問題。</span></div></span></span>
+	
+	
+</span></span></div>
+            <div class="clear"></div>
+            <div id="footer"><img src="../../userfile/38110/footer_t1.png" alt="讓我們乘著夢想的翅膀，航向成功之路" /></div>
+            </div>
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+			
+			<DIV id="DIV2" style="DISPLAY:none;WIDTH:0px;HEIGHT:0px"></DIV>
+			<div id="DecoratePanel" style="height:0px;width:0px;">
+
+</div>
+			
+			<div onMouseOver='mwshowdropmenulayer(1)' onfocus='mwshowdropmenulayer(1)' onMouseOut='mwclosedropdownlayer()' onblur='mwclosedropdownlayer()' id='mwdropdownmenu1' class='mc97b mwpopupmenu'>
+<a style='display:none;' class='mc99fhidden' name='no220712' href='page1.aspx%EF%B9%96no=220712.html'>網站宗旨</a><p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no220713' href='page1.aspx%EF%B9%96no=220713.html'>網站負責人</a></p>
+</div><div onMouseOver='mwshowdropmenulayer(2)' onfocus='mwshowdropmenulayer(2)' onMouseOut='mwclosedropdownlayer()' onblur='mwclosedropdownlayer()' id='mwdropdownmenu2' class='mc97b mwpopupmenu'>
+<a style='display:none;' class='mc99fhidden' name='no220091' href='page1.aspx%EF%B9%96step=apply&amp;no=220091.html'>五夢會員</a><p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no220107' href='page1.aspx%EF%B9%96no=220107.html'>會員作品</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no220102' href='page1.aspx%EF%B9%96no=220102.html'>最新消息</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no220722' href='page1.aspx%EF%B9%96no=220722.html'>意見箱</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no220723' href='page1.aspx%EF%B9%96step=1&amp;no=220723.html'>忘記密碼</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no222115' href='page1.aspx%EF%B9%96no=222115.html'>會員作品</a></p>
+</div><div onMouseOver='mwshowdropmenulayer(3)' onfocus='mwshowdropmenulayer(3)' onMouseOut='mwclosedropdownlayer()' onblur='mwclosedropdownlayer()' id='mwdropdownmenu3' class='mc97b mwpopupmenu'>
+<a style='display:none;' class='mc99fhidden' name='no220704' href='page1.aspx%EF%B9%96no=220704.html'>基礎科學</a><p class='mwselected' ><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221249' href='page1.aspx%EF%B9%96no=221249.html'>數學</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221251' href='page1.aspx%EF%B9%96no=221251.html'>化學</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221252' href='page1.aspx%EF%B9%96no=221252.html'>生物（健康）</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221253' href='page1.aspx%EF%B9%96no=221253.html'>物理</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221254' href='page1.aspx%EF%B9%96no=221254.html'>氣象與地震</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221255' href='page1.aspx%EF%B9%96no=221255.html'>環保與能源</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221250' href='page1.aspx%EF%B9%96no=221250.html'>工程</a></p>
+</div><div onMouseOver='mwshowdropmenulayer(4)' onfocus='mwshowdropmenulayer(4)' onMouseOut='mwclosedropdownlayer()' onblur='mwclosedropdownlayer()' id='mwdropdownmenu4' class='mc97b mwpopupmenu'>
+<a style='display:none;' class='mc99fhidden' name='no220708' href='page1.aspx%EF%B9%96no=220708.html'>生活常識</a><p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221263' href='../../U/38110/blog/test/index.html'>花的故事</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221264' href='page1.aspx%EF%B9%96no=221264.html'>國旗、國徽</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221265' href='page1.aspx%EF%B9%96no=221265.html'>萬事起源</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221261' href='page1.aspx%EF%B9%96no=221261.html'>幽默與趣譚</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221262' href='page1.aspx%EF%B9%96no=221262.html'>傳說與神話</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no254970' href='page1.aspx%EF%B9%96no=254970.html'>佛教、道教</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no254971' href='page1.aspx%EF%B9%96no=254971.html'>基督教、天主教</a></p>
+</div><div onMouseOver='mwshowdropmenulayer(5)' onfocus='mwshowdropmenulayer(5)' onMouseOut='mwclosedropdownlayer()' onblur='mwclosedropdownlayer()' id='mwdropdownmenu5' class='mc97b mwpopupmenu'>
+<a style='display:none;' class='mc99fhidden' name='no220710' href='page1.aspx%EF%B9%96no=220710.html'>財經資訊</a><p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221266' href='page1.aspx%EF%B9%96no=221266.html'>股票(財經)漫談</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221267' href='page1.aspx%EF%B9%96no=221267.html'>財經資訊</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221268' href='page1.aspx%EF%B9%96no=221268.html'>商場策略</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221269' href='page1.aspx%EF%B9%96no=221269.html'>投資、理財</a></p>
+</div><div onMouseOver='mwshowdropmenulayer(6)' onfocus='mwshowdropmenulayer(6)' onMouseOut='mwclosedropdownlayer()' onblur='mwclosedropdownlayer()' id='mwdropdownmenu6' class='mc97b mwpopupmenu'>
+<a style='display:none;' class='mc99fhidden' name='no220705' href='page1.aspx%EF%B9%96no=220705.html'>智能充電</a><p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221258' href='page1.aspx%EF%B9%96no=221258.html'>你知道嗎？</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221259' href='page1.aspx%EF%B9%96no=221259.html'>似是而非？</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221260' href='page1.aspx%EF%B9%96no=221260.html'>你夠聰明嗎？</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221257' href='page1.aspx%EF%B9%96no=221257.html'>你該怎麼辦？</a></p>
+</div><div onMouseOver='mwshowdropmenulayer(7)' onfocus='mwshowdropmenulayer(7)' onMouseOut='mwclosedropdownlayer()' onblur='mwclosedropdownlayer()' id='mwdropdownmenu7' class='mc97b mwpopupmenu'>
+<a style='display:none;' class='mc99fhidden' name='no220707' href='page1.aspx%EF%B9%96no=220707.html'>名人軼事</a><p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221270' href='page1.aspx%EF%B9%96no=221270.html'>科學家</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221271' href='page1.aspx%EF%B9%96no=221271.html'>文學家</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221272' href='page1.aspx%EF%B9%96no=221272.html'>藝術家</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221273' href='page1.aspx%EF%B9%96no=221273.html'>台灣名人</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221274' href='page1.aspx%EF%B9%96no=221274.html'>名人軼事</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221275' href='page1.aspx%EF%B9%96no=221275.html'>名人幽默</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no238424' href='page1.aspx%EF%B9%96no=238424.html'>政治與軍事</a></p>
+</div><div onMouseOver='mwshowdropmenulayer(8)' onfocus='mwshowdropmenulayer(8)' onMouseOut='mwclosedropdownlayer()' onblur='mwclosedropdownlayer()' id='mwdropdownmenu8' class='mc97b mwpopupmenu'>
+<a style='display:none;' class='mc99fhidden' name='no220709' href='page1.aspx%EF%B9%96no=220709.html'>老農開講</a><p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221276' href='page1.aspx%EF%B9%96no=221276.html'>歷史不會倒退</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221277' href='page1.aspx%EF%B9%96no=221277.html'>談諾貝爾精神</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221278' href='page1.aspx%EF%B9%96no=221278.html'>論六道輪迴</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221279' href='page1.aspx%EF%B9%96no=221279.html'>历史不会倒退（简体）</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221280' href='page1.aspx%EF%B9%96no=221280.html'>谈诺贝尔精神（简体）</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221281' href='page1.aspx%EF%B9%96no=221281.html'>论六道轮回（简体）</a></p>
+</div><div onMouseOver='mwshowdropmenulayer(9)' onfocus='mwshowdropmenulayer(9)' onMouseOut='mwclosedropdownlayer()' onblur='mwclosedropdownlayer()' id='mwdropdownmenu9' class='mc97b mwpopupmenu'>
+<a style='display:none;' class='mc99fhidden' name='no220706' href='page1.aspx%EF%B9%96no=220706.html'>精彩作品</a><p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221286' href='page1.aspx%EF%B9%96no=221286.html'>世界文選</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221287' href='page1.aspx%EF%B9%96no=221287.html'>世界寓言</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221285' href='page1.aspx%EF%B9%96no=221285.html'>中國文選</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221288' href='page1.aspx%EF%B9%96no=221288.html'>中國寓言</a></p>
+<p><img src='pageimg/menudot.gif' class='mwmenudot'><a class='mc97f' name='no221284' href='page1.aspx%EF%B9%96no=221284.html'>偵探小說</a></p>
+</div>
+		
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E69C7E18" /></form>
+		
+		<!--[if lt IE 7]>
+		<SCRIPT src="pngfix.js" defer type="text/javascript"></SCRIPT>
+		<![endif]-->
+		<div id="FooterPanel">
+	<!-- 00:00:00.071 -->
+</div>
+	</body>
+</html>

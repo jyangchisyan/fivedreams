@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /userfile/*.pdf$
+Disallow: /userfile/*.xls$
+Disallow: /userfile/*.xlsx$
+Disallow: /userfile/*.doc$
+Disallow: /userfile/*.docx$
