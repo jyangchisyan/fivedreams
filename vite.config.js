@@ -52,8 +52,41 @@ function legacyHtmlPassthrough() {
   }
 }
 
+function githubPagesAssets() {
+  const base = process.env.SITE_BASE || '/'
+  const rebase = (text) => base === '/' ? text : text.replace(/(["'=(])\/(meworksv2a\/|userfile\/|U\/|#\/)/g, `$1${base}$2`)
+  return {
+    name: 'github-pages-assets',
+    enforce: 'pre',
+    transform(code, id) {
+      if (id.includes('/src/') && /\.(vue|js)$/.test(id)) return base === '/' ? code : code.replace(/(["'=(])\/(meworksv2a\/|U\/|#\/)/g, `$1${base}$2`)
+    },
+    closeBundle() {
+      const copy = (source, dest) => {
+        for (const entry of fs.readdirSync(source, { withFileTypes: true })) {
+          if (entry.name === '.DS_Store') continue
+          const from = path.join(source, entry.name)
+          const to = path.join(dest, entry.name)
+          if (entry.isDirectory()) {
+            fs.mkdirSync(to, { recursive: true })
+            copy(from, to)
+          } else if (!fs.existsSync(to)) {
+            if (/\.(html|css|js)$/i.test(entry.name)) fs.writeFileSync(to, rebase(fs.readFileSync(from, 'utf8')))
+            else fs.copyFileSync(from, to)
+          }
+        }
+      }
+      for (const dir of ['meworksv2a', 'userfile', 'U']) {
+        fs.mkdirSync(path.join('dist', dir), { recursive: true })
+        copy(dir, path.join('dist', dir))
+      }
+    },
+  }
+}
+
 export default defineConfig({
-  plugins: [legacyHtmlPassthrough(), vue()],
+  base: process.env.SITE_BASE || '/',
+  plugins: [githubPagesAssets(), legacyHtmlPassthrough(), vue()],
   build: {
     rollupOptions: {
       input: {
