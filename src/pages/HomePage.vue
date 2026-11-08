@@ -29,10 +29,10 @@ const filteredCategories = computed(() => {
     <div class="section-heading">
       <div>
         <p class="eyebrow">Search</p>
-        <h2>從入口開始整理舊內容</h2>
+        <h2>找到感興趣的主題</h2>
       </div>
       <p class="section-text">
-        首頁保留搜尋與分類預覽，完整內容拆到獨立路由頁，讓資訊架構真正可擴張。
+        輸入關鍵字，探索五夢網豐富的主題與收藏。
       </p>
     </div>
 

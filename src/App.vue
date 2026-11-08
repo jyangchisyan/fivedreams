@@ -12,7 +12,7 @@ import SiteHeader from './components/SiteHeader.vue'
     </main>
 
     <footer class="site-footer">
-      <p>五夢網現代化入口以 Vue Router 建立，舊站內容仍保留為可直接存取的歷史頁面。</p>
+      <p>五夢網 · 探索知識，分享故事</p>
     </footer>
   </div>
 </template>

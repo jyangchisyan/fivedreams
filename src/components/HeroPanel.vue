@@ -12,11 +12,10 @@ defineProps({
 <template>
   <section class="hero">
     <div class="hero-copy">
-      <p class="eyebrow">Vue Modernization</p>
-      <h1>把舊站內容保留下來，把入口體驗升級到現在。</h1>
+      <p class="eyebrow">FIVE DREAMS</p>
+      <h1>在知識與故事之間，發現更多可能。</h1>
       <p class="hero-text">
-        這一版先不動 4000 多個歷史頁面，改由新的 Vue 首頁負責導覽、篩選與資訊整理，
-        讓內容保留、入口現代化、後續重構有落點。
+        從科學、文化到生活與人物，探索五夢網收藏的文章與觀點。
       </p>
       <div class="hero-actions">
         <RouterLink class="button button-primary" to="/categories">瀏覽主題</RouterLink>
@@ -28,11 +27,11 @@ defineProps({
     </div>
 
     <div class="hero-card">
-      <p class="hero-card-label">重構策略</p>
+      <p class="hero-card-label">探索五夢網</p>
       <ul class="hero-list">
-        <li>新入口用 Vue 管理資訊架構</li>
-        <li>舊內容維持深連結可用</li>
-        <li>之後可逐步把分類頁搬進元件系統</li>
+        <li>從主題分類尋找感興趣的內容</li>
+        <li>閱讀跨越不同領域的文章</li>
+        <li>重訪珍貴的歷史收藏</li>
       </ul>
 
       <div class="stats-grid">

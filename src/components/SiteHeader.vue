@@ -25,7 +25,7 @@ const isActive = (to) => {
       <img src="/userfile/38110/logo2.png" alt="五夢網標誌" />
       <div>
         <strong>五夢網</strong>
-        <span>Legacy Archive, Modern Front Door</span>
+        <span>探索知識，分享故事</span>
       </div>
     </RouterLink>
 

@@ -21,7 +21,7 @@ defineProps({
         <h2>主題分類</h2>
       </div>
       <p class="section-text">
-        以卡片式整理原本的八個主分類，直接銜接現有歷史頁，讓內容先可讀、可找、可延續。
+        從不同領域出發，發現值得細讀的文章。
       </p>
     </div>
 
@@ -35,9 +35,9 @@ defineProps({
         </ul>
         <div class="card-actions">
           <RouterLink v-if="showRouterLink" class="inline-link" :to="`/categories/${item.slug}`">
-            查看 Vue 分類頁
+            瀏覽分類
           </RouterLink>
-          <a class="inline-link" :href="item.href">前往原始分類頁</a>
+          <a class="inline-link" :href="item.href">閱讀文章</a>
         </div>
       </article>
     </div>
