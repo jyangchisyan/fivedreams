@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "index": "node scripts/generate-content-index.mjs",
+    "predev": "npm run index",
+    "prebuild": "npm run index",
     "build": "vite build",
     "preview": "vite preview"
   },

@@ -1,6 +1,8 @@
 User-agent: *
+Allow: /
 Disallow: /userfile/*.pdf$
 Disallow: /userfile/*.xls$
 Disallow: /userfile/*.xlsx$
 Disallow: /userfile/*.doc$
 Disallow: /userfile/*.docx$
+Sitemap: https://www.meworks.net/sitemap.xml

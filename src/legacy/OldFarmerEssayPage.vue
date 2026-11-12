@@ -22,7 +22,7 @@ const legacyHref = computed(() => `/meworksv2a/meworks/page1.aspx%EF%B9%96no=${p
       </a>
 
       <nav class="legacy-modern-nav" aria-label="頁面捷徑">
-        <a href="/#/categories/old-farmer-talks">Vue 分類頁</a>
+        <a href="/categories/old-farmer-talks">Vue 分類頁</a>
         <a href="/meworksv2a/meworks/page1.aspx%EF%B9%96no=220709.html">回老農開講總頁</a>
         <a :href="legacyHref">看歷史備份頁</a>
         <a href="/meworksv2a/meworks/page.aspx%EF%B9%96no=38110.html">回舊版首頁</a>

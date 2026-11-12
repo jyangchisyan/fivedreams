@@ -80,6 +80,7 @@ function githubPagesAssets() {
         fs.mkdirSync(path.join('dist', dir), { recursive: true })
         copy(dir, path.join('dist', dir))
       }
+      fs.copyFileSync(path.join('dist', 'index.html'), path.join('dist', '404.html'))
     },
   }
 }

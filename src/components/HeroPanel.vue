@@ -13,16 +13,13 @@ defineProps({
   <section class="hero">
     <div class="hero-copy">
       <p class="eyebrow">FIVE DREAMS</p>
-      <h1>在知識與故事之間，發現更多可能。</h1>
+      <h1>從一篇文章，走進更大的知識世界。</h1>
       <p class="hero-text">
-        從科學、文化到生活與人物，探索五夢網收藏的文章與觀點。
+        搜尋數千篇跨越科學、文化、生活與人物的典藏，或從近期收錄開始閱讀。
       </p>
       <div class="hero-actions">
-        <RouterLink class="button button-primary" to="/categories">瀏覽主題</RouterLink>
-        <RouterLink class="button button-secondary" to="/archive">查看歷史檔案</RouterLink>
-        <a class="button button-secondary" href="/meworksv2a/meworks/page.aspx%EF%B9%96no=38110.html">
-          開啟舊版首頁
-        </a>
+        <a class="button button-primary" href="#search">搜尋文章</a>
+        <RouterLink class="button button-secondary" to="/categories">依主題探索</RouterLink>
       </div>
     </div>
 

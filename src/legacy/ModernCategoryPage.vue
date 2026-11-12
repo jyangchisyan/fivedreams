@@ -11,12 +11,12 @@ const legacyHref = computed(() => `/meworksv2a/meworks/page1.aspx%EF%B9%96no=${c
 <template>
   <div class="category-shell" :data-color="category.color">
     <header class="category-topbar">
-      <a class="category-brand" href="/#/">
+      <a class="category-brand" href="/">
         <img src="/userfile/38110/logo2.png" alt="五夢網標誌" />
         <div><strong>五夢網</strong><span>{{ category.title }} Modern Edition</span></div>
       </a>
       <nav class="category-nav" aria-label="頁面捷徑">
-        <a href="/#/categories">Vue 分類頁</a>
+        <a href="/categories">Vue 分類頁</a>
         <a :href="legacyHref">歷史備份頁</a>
         <a href="/meworksv2a/meworks/page.aspx%EF%B9%96no=38110.html">舊版首頁</a>
       </nav>

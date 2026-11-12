@@ -5,7 +5,7 @@ import { latestNewsFeed, latestNewsHighlights, latestNewsSections } from './late
 <template>
   <div class="news-shell">
     <header class="news-topbar">
-      <a class="news-brand" href="/#/">
+      <a class="news-brand" href="/">
         <img src="/userfile/38110/logo2.png" alt="五夢網標誌" />
         <div>
           <strong>五夢網</strong>
@@ -14,7 +14,7 @@ import { latestNewsFeed, latestNewsHighlights, latestNewsSections } from './late
       </a>
 
       <nav class="news-nav" aria-label="頁面捷徑">
-        <a href="/#/categories/latest-news">Vue 分類頁</a>
+        <a href="/categories/latest-news">Vue 分類頁</a>
         <a href="/meworksv2a/meworks/page1.aspx%EF%B9%96no=220102.legacy.html">歷史備份頁</a>
         <a href="/meworksv2a/meworks/page.aspx%EF%B9%96no=38110.html">舊版首頁</a>
       </nav>

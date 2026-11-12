@@ -5,12 +5,12 @@ import { scienceArticles, scienceFields } from './basicScienceData'
 <template>
   <div class="science-shell">
     <header class="science-topbar">
-      <a class="science-brand" href="/#/">
+      <a class="science-brand" href="/">
         <img src="/userfile/38110/logo3.png" alt="五夢網標誌" />
         <div><strong>五夢網</strong><span>基礎科學 Modern Edition</span></div>
       </a>
       <nav class="science-nav" aria-label="頁面捷徑">
-        <a href="/#/categories/basic-science">Vue 分類頁</a>
+        <a href="/categories/basic-science">Vue 分類頁</a>
         <a href="/meworksv2a/meworks/page1.aspx%EF%B9%96no=220704.legacy.html">歷史備份頁</a>
         <a href="/meworksv2a/meworks/page.aspx%EF%B9%96no=38110.html">舊版首頁</a>
       </nav>

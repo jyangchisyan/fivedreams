@@ -393,6 +393,85 @@ input {
   box-shadow: 0 0 0 4px rgba(13, 107, 87, 0.08);
 }
 
+.search-status {
+  min-height: 1.5em;
+  margin: 14px 0 0;
+  color: var(--muted);
+}
+
+.search-status.error {
+  color: #9c3428;
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.search-results {
+  margin-top: 22px;
+}
+
+.article-card {
+  display: flex;
+  min-width: 0;
+  min-height: 220px;
+  flex-direction: column;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: 0 14px 46px rgba(38, 48, 43, 0.09);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.article-card:hover,
+.article-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(13, 107, 87, 0.3);
+}
+
+.article-card h3 {
+  margin: 16px 0 10px;
+  font-family: 'Noto Serif TC', serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.article-card p {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0 0 18px;
+  color: var(--muted);
+  line-height: 1.65;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.article-card .inline-link {
+  margin-top: auto;
+}
+
+.article-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.article-meta span {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid rgba(13, 107, 87, 0.35);
+  outline-offset: 3px;
+}
+
 .category-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -596,6 +675,7 @@ input {
   .archive-layout,
   .category-grid,
   .feature-grid,
+  .article-grid,
   .three-up,
   .detail-layout {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -642,6 +722,7 @@ input {
   .archive-layout,
   .stats-grid,
   .feature-grid,
+  .article-grid,
   .three-up,
   .detail-layout {
     grid-template-columns: 1fr;
@@ -649,5 +730,19 @@ input {
 
   .hero h1 {
     font-size: 2.3rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

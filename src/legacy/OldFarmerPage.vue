@@ -30,8 +30,8 @@ const essays = [
 ]
 
 const quickLinks = [
-  { label: '回五夢網現代首頁', href: '/#/' },
-  { label: '回 Vue 分類頁', href: '/#/categories/old-farmer-talks' },
+  { label: '回五夢網現代首頁', href: '/' },
+  { label: '回 Vue 分類頁', href: '/categories/old-farmer-talks' },
   { label: '看歷史備份頁', href: '/meworksv2a/meworks/page1.aspx%EF%B9%96no=220709.legacy.html' },
   { label: '回舊版首頁', href: '/meworksv2a/meworks/page.aspx%EF%B9%96no=38110.html' },
 ]
@@ -40,7 +40,7 @@ const quickLinks = [
 <template>
   <div class="legacy-modern-shell">
     <header class="legacy-modern-topbar">
-      <a class="legacy-brand" href="/#/">
+      <a class="legacy-brand" href="/">
         <img src="/userfile/38110/logo2.png" alt="五夢網標誌" />
         <div>
           <strong>五夢網</strong>

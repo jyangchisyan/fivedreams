@@ -67,8 +67,8 @@ export const latestNewsSections = [
     title: '總分類入口',
     links: [
       { label: '最新消息總頁', href: '/meworksv2a/meworks/page1.aspx%EF%B9%96no=220102.legacy.html' },
-      { label: '回五夢網首頁', href: '/#/' },
-      { label: '回 Vue 分類頁', href: '/#/categories/latest-news' },
+      { label: '回五夢網首頁', href: '/' },
+      { label: '回 Vue 分類頁', href: '/categories/latest-news' },
     ],
   },
   {
